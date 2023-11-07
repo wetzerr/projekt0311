@@ -1,0 +1,108 @@
+/* Deaktiviert die Textauswahl beim Doppelklick */
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.closex {
+    cursor: pointer;
+    height: 20px;
+    margin-left: 330px;
+    transition: all 0.6s;
+}
+
+.frage3 {
+    color: #202020;
+    cursor: default;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -1px;
+}
+  
+.antwortbuttonfrage3 {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.6s;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 30%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+  
+.antwortbuttonfrage3:hover {
+    color: rgb(114, 114, 114);
+    border-color: rgb(255, 255, 255);
+} 
+
+
+/* BILDER */
+.schulternbild {
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: all 0.6s;
+    border-radius: 10px;
+    width: 124px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1.25;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    font-family: 'Montserrat';
+}
+
+.schulternbild:hover,
+.schulternbild:focus {
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+ color: rgba(0, 0, 0, 0.65);
+} 
+
+.schulternbild:hover {
+    transform: translateY(-1px);
+}
+
+.schulternbild:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+.poweredby {
+    font-size: 13px;
+    color: #202020;
+    margin-top: 115px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}

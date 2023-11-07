@@ -1,0 +1,150 @@
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.backarrowEnd {
+    height: 25px;
+    cursor: pointer;
+}
+
+.closex {
+    height: 20px;
+    cursor: pointer;   
+}
+
+.alignBottom {
+    vertical-align: bottom;
+}
+
+.frage5 {
+    color: #202020;
+    cursor: default;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.wrapper {
+    position: relative;
+    height: 20rem;
+    width: 3rem;
+  
+    &::before,
+    &::after {
+      display: block;
+      position: absolute;
+      z-index: 99;
+      color: #adadad;
+      width: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 1;
+      padding: .75rem 0;
+      pointer-events: none;
+    }
+  
+    &::before {
+      content: "+";
+    }
+  
+    &::after {
+      content: "−";
+      bottom: 0;
+    }
+}
+  
+.sliderpass {
+    -webkit-appearance: none;
+    background-color: rgba(#696969, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    width: 20rem;
+    height: 3.5rem;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    
+    &[step]{
+      background-color: #202020;
+      background-image: repeating-linear-gradient(to right, rgba(#fff, .2), rgba(#fff, .2) calc(12.5% - 1px), #05051a 12.5%);
+    }
+  
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 0;
+      box-shadow: -20rem 0 0 20rem rgba(#8b2020, 0.2);
+    }
+  
+    &::-moz-range-thumb {
+      border: none;
+      width: 0;
+      box-shadow: -20rem 0 0 20rem rgba(#bdbdbd, 0.2);
+    }
+}
+
+.arrowRight {
+    cursor: pointer;
+    height: 15px;
+    position: relative;
+    left: 105px;
+    top: 100px;
+    vertical-align: middle;
+}
+
+.weiterButton {
+  text-align: start;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  position: relative;
+  left: 125px;
+  top: 100px;
+  width: 80px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1.5%;
+  height: 35px;
+}
+
+.weiterButton:hover,
+.weiterButton:focus {
+border-color: rgba(0, 0, 0, 0.15);
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+color: rgba(0, 0, 0, 0.65);
+} 
+
+.weiterButton:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+  

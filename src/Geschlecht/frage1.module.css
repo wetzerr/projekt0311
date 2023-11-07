@@ -1,0 +1,181 @@
+/* Deaktiviert die Textauswahl beim Doppelklick */
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+      cursor: default;
+}
+
+.closex {
+    cursor: pointer;
+    height: 20px;
+    margin-left: 340px;
+    transition: all 0.6s;
+    margin-top: 1.5%;
+}
+
+.closex:active {
+
+}
+
+@media (max-width: 400px) {
+    .closex {
+      height: 22px;
+    }
+    
+    .poweredby {
+        top: 20%;
+    }
+
+    .span {
+        font-size: 15px;
+    }
+  }
+
+.h1 {
+    font-size: 13px;
+    position: relative;
+    margin-top: -10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.divider {
+  position: relative;
+  width: 100%;
+  padding-top: 0px; /* Ändere die Breite nach Bedarf */
+  margin: 0 auto;
+  background-color: rgb(238, 238, 238);
+  border-top-right-radius: 17px;
+  border-top-left-radius: 17px;
+  overflow: hidden;
+}
+
+.line {
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.frage1 {
+    color: #202020;
+    cursor: default;
+    margin-top: 5%;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+/* FRAGE 1, buttons */
+.antwortbuttonfrage11 {
+ align-items: center;
+ background-color: #FFFFFF;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ border-radius: .25rem;
+ box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+ box-sizing: border-box;
+ color: rgba(0, 0, 0, 0.85);
+ cursor: pointer;
+ display: inline-flex;
+ font-size: 16px;
+ font-weight: 600;
+ justify-content: center;
+ line-height: 1.25;
+ min-height: 3rem;
+ padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+ text-decoration: none;
+ transition: all 250ms;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ vertical-align: baseline;
+ width: 30%;
+ font-family: 'Montserrat';
+ margin-right: 5%;
+}
+
+.antwortbuttonfrage11:hover,
+.antwortbuttonfrage11:focus {
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+ color: rgba(0, 0, 0, 0.65);
+}
+
+.antwortbuttonfrage11:hover {
+    transform: translateY(-1px);
+}
+
+.antwortbuttonfrage11:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+  
+.antwortbuttonfrage12 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 30%;
+    font-family: 'Montserrat';
+}
+
+  
+.antwortbuttonfrage12:hover,
+.antwortbuttonfrage12:focus {
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+ color: rgba(0, 0, 0, 0.65);
+} 
+
+.antwortbuttonfrage12:hover {
+    transform: translateY(-1px);
+}
+
+.antwortbuttonfrage12:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+.poweredby {
+    font-size: 13px;
+    color: #202020;
+    margin-top: 180px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
